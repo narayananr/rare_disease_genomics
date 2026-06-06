@@ -2,7 +2,7 @@
 
 Datasets linking rare diseases to their associated genes, extracted from [Orphadata](https://www.orphadata.com/) and [Ensembl](https://www.ensembl.org/).
 
-**Download the data:** https://narayananr.github.io/rare_diseases/
+**Download the data:** https://narayananr.github.io/rare_disease_genomics/
 
 ---
 
@@ -10,7 +10,7 @@ Datasets linking rare diseases to their associated genes, extracted from [Orphad
 
 | Date | Session | Notebook | Open in Colab |
 |------|---------|---------|---------------|
-| Jun 6, 2026 | Class 1 | [Rare_Disease_Genes_Class_1.ipynb](notebooks/Rare_Disease_Genes_Class_1.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/narayananr/rare_diseases/blob/main/notebooks/Rare_Disease_Genes_Class_1.ipynb) |
+| Jun 6, 2026 | Class 1 | [Rare_Disease_Genes_Class_1.ipynb](notebooks/Rare_Disease_Genes_Class_1.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/narayananr/rare_disease_genomics/blob/main/notebooks/Rare_Disease_Genes_Class_1.ipynb) |
 
 ---
 
@@ -18,7 +18,7 @@ Datasets linking rare diseases to their associated genes, extracted from [Orphad
 
 ### Option 1: Use Google Colab (Easiest - No Installation!)
 
-1. Click this link: **[Open in Google Colab](https://colab.research.google.com/github/narayananr/rare_diseases/blob/main/notebooks/learn_data_analysis.ipynb)**
+1. Click this link: **[Open in Google Colab](https://colab.research.google.com/github/narayananr/rare_disease_genomics/blob/main/notebooks/Rare_Disease_Genes_Class_1.ipynb)**
 2. Sign in with your Google account
 3. Click "Copy to Drive" to save your own copy
 4. Start learning!
@@ -28,15 +28,15 @@ Datasets linking rare diseases to their associated genes, extracted from [Orphad
 1. Click the green **"Code"** button at the top of this page
 2. Click **"Download ZIP"**
 3. Extract the ZIP file to a folder on your computer
-4. Open the `notebooks/learn_data_analysis.ipynb` file with Jupyter
+4. Open the `notebooks/Rare_Disease_Genes_Class_1.ipynb` file with Jupyter
 
 ### Option 3: Clone with Git
 
 If you have Git installed, open Terminal (Mac/Linux) or Command Prompt (Windows) and run:
 
 ```bash
-git clone https://github.com/narayananr/rare_diseases.git
-cd rare_diseases
+git clone https://github.com/narayananr/rare_disease_genomics.git
+cd rare_disease_genomics
 ```
 
 ### Running the Notebook Locally
@@ -48,8 +48,8 @@ After downloading, you need Jupyter to run the notebook:
 pip install jupyter pandas matplotlib
 
 # Open the notebook
-cd rare_diseases
-jupyter notebook notebooks/learn_data_analysis.ipynb
+cd rare_disease_genomics
+jupyter notebook notebooks/Rare_Disease_Genes_Class_1.ipynb
 ```
 
 ---
@@ -57,7 +57,7 @@ jupyter notebook notebooks/learn_data_analysis.ipynb
 ## Project Structure
 
 ```
-rare_diseases/
+rare_disease_genomics/
 ├── data/                               # Datasets
 │   ├── rare_gene_disease_dataset.csv
 │   └── ensembl_genes.csv
@@ -65,15 +65,7 @@ rare_diseases/
 │   ├── fetch_rare_disease_genes.py
 │   └── fetch_ensembl_genes.py
 ├── notebooks/                          # Course notebooks
-│   ├── Rare_Disease_Genes_Class_1.ipynb     # Class 1 (Mar 27)
-│   ├── Rare_Disease_Genes_HW1.ipynb         # Homework 1 (due Apr 3)
-│   ├── Rare_Disease_Genes_Class_2.ipynb     # Class 2 (Apr 3)
-│   ├── Rare_Disease_Genes_HW2.ipynb         # Homework 2 (due Apr 10) — portfolio setup
-│   ├── Rare_Disease_Genes_HW3.ipynb         # Homework 3 (due Apr 24) — visualization
-│   ├── Tissue_Specificity_Examples.ipynb    # Next lesson: tissue-specificity scoring
-│   └── learn_data_analysis.ipynb            # Original combined notebook
-├── slides/                             # HTML slide decks (reveal.js)
-│   └── find_tissue_specific_genes.html      # Next lesson slides
+│   └── Rare_Disease_Genes_Class_1.ipynb     # Class 1 (Jun 6, 2026)
 ├── index.html                          # GitHub Pages website
 └── README.md
 ```
@@ -82,7 +74,7 @@ rare_diseases/
 
 **New to Python?** Try our interactive Jupyter notebook!
 
-📓 **[Learn Data Analysis with Rare Disease Genes](notebooks/learn_data_analysis.ipynb)**
+📓 **[Rare Disease Genes — Class 1](notebooks/Rare_Disease_Genes_Class_1.ipynb)**
 
 You'll learn:
 - Loading and exploring CSV files with pandas
@@ -140,7 +132,7 @@ Basic annotations for all human genes.
 
 ### Quick Start
 
-Download the CSV files directly from the [GitHub Pages site](https://narayananr.github.io/rare_diseases/).
+Download the CSV files directly from the [GitHub Pages site](https://narayananr.github.io/rare_disease_genomics/).
 
 ### Regenerate Data
 
@@ -228,4 +220,4 @@ The datasets are derived from:
 
 ## Contributing
 
-Issues and pull requests welcome at https://github.com/narayananr/rare_diseases
+Issues and pull requests welcome at https://github.com/narayananr/rare_disease_genomics
