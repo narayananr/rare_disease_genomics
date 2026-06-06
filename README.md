@@ -14,21 +14,6 @@ Datasets linking rare diseases to their associated genes, extracted from [Orphad
 
 ---
 
-## Next Lesson — Finding Tissue-Specific Genes
-
-A standalone lesson bridging gene-expression intuition with computational scoring. Designed for high-school audiences.
-
-| Resource | Description | Open |
-|----------|-------------|------|
-| 🎞 [Slides](slides/find_tissue_specific_genes.html) | 21-slide deck: same DNA → expression → GTEx → tissue specificity in rare-disease genes (MYH7, DMD, INS, HBB) → ends with *"how do we find them computationally?"* + practice datasets + a *"describe the steps"* exercise. | [View on GitHub Pages](https://narayananr.github.io/rare_diseases/slides/find_tissue_specific_genes.html) |
-| 📓 [Tissue_Specificity_Examples.ipynb](notebooks/Tissue_Specificity_Examples.ipynb) | Step-by-step Python notebook: compute **fold change**, **ratio-to-mean**, and **tau (τ)** scores on toy MYH7/GAPDH data, then apply to a small gene library. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/narayananr/rare_diseases/blob/main/notebooks/Tissue_Specificity_Examples.ipynb) |
-
-The slides open the inquiry (*do rare-disease genes show tissue specificity in normal bodies?*) and motivate the need for a computational score. The notebook is the natural follow-up, walking through three scoring methods on data small enough to verify by hand.
-
-> Slides use [reveal.js](https://revealjs.com/) — arrow keys to navigate, **S** for speaker notes, **F** for fullscreen.
-
----
-
 ## Getting Started
 
 ### Option 1: Use Google Colab (Easiest - No Installation!)
