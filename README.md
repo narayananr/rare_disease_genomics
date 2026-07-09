@@ -13,7 +13,7 @@ Datasets linking rare diseases to their associated genes, extracted from [Orphad
 | Jun 6, 2026 | Class 1 | [Rare_Disease_Genes_Class_1.ipynb](notebooks/Rare_Disease_Genes_Class_1.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/narayananr/rare_disease_genomics/blob/main/notebooks/Rare_Disease_Genes_Class_1.ipynb) |
 | Jun 6, 2026 | Homework 1 | [Rare_Disease_Genes_HW1.ipynb](notebooks/Rare_Disease_Genes_HW1.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/narayananr/rare_disease_genomics/blob/main/notebooks/Rare_Disease_Genes_HW1.ipynb) |
 | Jun 13, 2026 | Class 2 | [Rare_Disease_Genes_Class_2.ipynb](notebooks/Rare_Disease_Genes_Class_2.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/narayananr/rare_disease_genomics/blob/main/notebooks/Rare_Disease_Genes_Class_2.ipynb) |
-| Jul 9, 2026 | Homework 3 — Data Visualization | [Rare_Disease_Genes_HW3.ipynb](notebooks/Rare_Disease_Genes_HW3.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/narayananr/rare_disease_genomics/blob/main/notebooks/Rare_Disease_Genes_HW3.ipynb) |
+| Jul 9, 2026 | Class 3 — Data Visualization | [Rare_Disease_Genes_Class_3.ipynb](notebooks/Rare_Disease_Genes_Class_3.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/narayananr/rare_disease_genomics/blob/main/notebooks/Rare_Disease_Genes_Class_3.ipynb) |
 
 ---
 
@@ -85,7 +85,7 @@ In Class 1 you'll learn:
 
 Later sessions build on these basics:
 - **[Class 2](notebooks/Rare_Disease_Genes_Class_2.ipynb)** — summarizing data, merging two datasets, and your first charts
-- **[Homework 3 — Data Visualization](notebooks/Rare_Disease_Genes_HW3.ipynb)** — plotting in depth with matplotlib and seaborn: bar charts, box plots, scatter plots, histograms, and heatmaps
+- **[Class 3 — Data Visualization](notebooks/Rare_Disease_Genes_Class_3.ipynb)** — plotting in depth with matplotlib and seaborn: bar charts, box plots, scatter plots, histograms, and heatmaps
 
 ## Datasets
 
